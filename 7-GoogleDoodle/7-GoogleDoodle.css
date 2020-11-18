@@ -1,0 +1,542 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+	width: 800px;
+	height: 300px;
+	background-color: #FFFFFF;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#containerID{
+	width: 100%;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+
+#title{
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-family: Helvetica; font-size: 30px; font-weight: bold; line-height: 1.2em;
+	text-align: center; color: #000;
+	visibility: visible;
+}
+
+.N{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	margin-left: 40px;
+	z-index: 2;
+    overflow: hidden;
+	position: absolute;
+}
+.nHold{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	left: 0px;
+	cursor: pointer;
+	position: absolute;
+    z-index: 3;
+}
+
+.nSlider{
+	height: 120px;
+	width: 90px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	transition: 1s ease;
+}
+.nHold:hover ~ .nSlider {
+	top: 0px;
+	transform: translate(0px, -120px);
+
+}
+.nslideR{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 50px;
+	color: #004AB3;
+	height: 120px;
+	width: 90px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: #000;
+}
+.nslideL{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 10px;
+	color: #FFB54C;
+	height: 120px;
+	width: 90px;
+	top: 120px;
+	left: 0px;
+	position: absolute;
+}
+
+.E{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	margin-left: 130px;
+	z-index: 2;
+    overflow: hidden;
+	position: absolute;
+}
+.eHold{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	left: 0px;
+	cursor: pointer;
+	position: absolute;
+    z-index: 3;
+}
+
+.eSlider{
+	height: 120px;
+	width: 90px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	transition: 1s ease;
+}
+.eHold:hover ~ .eSlider {
+	top: 0px;
+	transform: translate(0px, -120px);
+
+}
+.eslideR{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 50px;
+	color: #2400B3;
+	height: 120px;
+	width: 90px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: #000;
+}
+.eslideL{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 10px;
+	color: #DBFF4C;
+	height: 120px;
+	width: 90px;
+	top: 120px;
+	left: 0px;
+	position: absolute;
+}
+
+.G{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	margin-left: 220px;
+	z-index: 2;
+    overflow: hidden;
+	position: absolute;
+}
+.gHold{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	left: 0px;
+	cursor: pointer;
+	position: absolute;
+    z-index: 3;
+}
+
+.gSlider{
+	height: 120px;
+	width: 90px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	transition: 1s ease;
+}
+.gHold:hover ~ .gSlider {
+	top: 0px;
+	transform: translate(0px, -120px);
+
+}
+.gslideR{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 50px;
+	color: #AFB988;
+	height: 120px;
+	width: 90px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: #000;
+}
+.gslideL{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 10px;
+	color: #504677;
+	height: 120px;
+	width: 90px;
+	top: 120px;
+	left: 0px;
+	position: absolute;
+}
+
+.A{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	margin-left: 310px;
+	z-index: 2;
+    overflow: hidden;
+	position: absolute;
+}
+.aHold{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	left: 0px;
+	cursor: pointer;
+	position: absolute;
+    z-index: 3;
+}
+
+.aSlider{
+	height: 120px;
+	width: 90px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	transition: 1s ease;
+}
+.aHold:hover ~ .aSlider {
+	top: 0px;
+	transform: translate(0px, -120px);
+
+}
+.aslideR{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 50px;
+	color: #B95A60;
+	height: 120px;
+	width: 90px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: #000;
+}
+.aslideL{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 10px;
+	color: #46A59F;
+	height: 120px;
+	width: 90px;
+	top: 120px;
+	left: 0px;
+	position: absolute;
+}
+
+.T{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	margin-left: 400px;
+	z-index: 2;
+    overflow: hidden;
+	position: absolute;
+}
+.tHold{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	left: 0px;
+	cursor: pointer;
+	position: absolute;
+    z-index: 3;
+}
+
+.tSlider{
+	height: 120px;
+	width: 90px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	transition: 1s ease;
+}
+.tHold:hover ~ .tSlider {
+	top: 0px;
+	transform: translate(0px, -120px);
+
+}
+.tslideR{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 50px;
+	color: #92B765;
+	height: 120px;
+	width: 90px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: #000;
+}
+.tslideL{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 10px;
+	color: #6D489A;
+	height: 120px;
+	width: 90px;
+	top: 120px;
+	left: 0px;
+	position: absolute;
+}
+
+.I{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	margin-left: 490px;
+	z-index: 2;
+    overflow: hidden;
+	position: absolute;
+}
+.iHold{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	left: 0px;
+	cursor: pointer;
+	position: absolute;
+    z-index: 3;
+}
+
+.iSlider{
+	height: 120px;
+	width: 90px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	transition: 1s ease;
+}
+.iHold:hover ~ .iSlider {
+	top: 0px;
+	transform: translate(0px, -120px);
+
+}
+.islideR{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 50px;
+	color: #84B7D3;
+	height: 120px;
+	width: 90px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: #000;
+}
+.islideL{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 10px;
+	color: #7B482C;
+	height: 120px;
+	width: 90px;
+	top: 120px;
+	left: 0px;
+	position: absolute;
+}
+
+.V{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	margin-left: 580px;
+	z-index: 2;
+    overflow: hidden;
+	position: absolute;
+}
+.vHold{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	left: 0px;
+	cursor: pointer;
+	position: absolute;
+    z-index: 3;
+}
+
+.vSlider{
+	height: 120px;
+	width: 90px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	transition: 1s ease;
+}
+.vHold:hover ~ .vSlider {
+	top: 0px;
+	transform: translate(0px, -120px);
+
+}
+.vslideR{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 50px;
+	color: #0044FC;
+	height: 120px;
+	width: 90px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: #000;
+}
+.vslideL{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 120px;
+	text-align: center;
+	vertical-align: 10px;
+	color: #FFBB03;
+	height: 120px;
+	width: 90px;
+	top: 120px;
+	left: 0px;
+	position: absolute;
+}
+
+.posimg{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	margin-left: 670px;
+	z-index: 2;
+    overflow: hidden;
+	position: absolute;
+}
+.imgHold{
+	height: 120px;
+	width: 90px;
+	margin-top: 18px;
+	left: 0px;
+	cursor: pointer;
+	position: absolute;
+    z-index: 3;
+}
+
+.imgSlider{
+	height: 120px;
+	width: 90px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	transition: 1s ease;
+}
+.imgHold:hover ~ .imgSlider {
+	top: 0px;
+	transform: translate(0px, -120px);
+
+}
+.imgslideR{
+	color: #0044FC;
+	height: 120px;
+	width: 90px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+.imgslideL{
+	color: #FFBB03;
+	height: 120px;
+	width: 90px;
+	top: 120px;
+	left: 0px;
+	position: absolute;
+}
+
+#bodycopy{
+	margin-top: 215px;
+	margin-bottom: 10px;
+	font-family: Helvetica; font-size: 18px; line-height: 1.2em;
+	text-align: center; color: #000;
+	visibility: visible;
+}
+#learnmore{
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-family: Helvetica; font-size: 18px; line-height: 1.2em;
+	text-align: center; color: #000;
+	visibility: visible;
+}
+
+a {
+	font-family: Helvetica; font-size: 18px; line-height: 1.2em;
+	color: #000;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #FF6767;
+}
