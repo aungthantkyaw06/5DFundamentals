@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+	width:1920px;
+	height:1080px;
+	background-color:#FFF;
+	position:absolute;
+}
+
+.imgcontainer{
+	width:800px;
+	height: 800px;
+	background-color: #FFF;
+	margin-top:180px;
+	margin-left:100px;
+	margin-bottom:100px;
+}
+
+#imgbox{
+	height:720px;
+	width: 720px;
+	position:absolute;
+}
+
+.textcontainer{
+	width:700px;
+	height: 720px;
+	background-color:#FFF;
+	margin-left:100px;
+	position:absolute; left:1000px; top:180px;
+}
+
+#title{
+	font-family: Helvetica; font-size: 60px; font-weight: bold; line-height: 1.2em;
+	padding-bottom: 50px;
+	text-align: left; color:#FBB040;
+}
+
+#haiku{
+	margin-top: 50px;
+	font-family: Helvetica; font-size: 35px; line-height: 0.5em;
+	padding-bottom: 50px;
+	text-align: left; color:#000;	
+}
+
+p{
+	line-height:0.5;
+}
+
+a{
+	font-family: Helvetica; font-size: 35px; font-weight:bold; line-height: 0.8em;
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover{
+	color:#FBB040;
+}
+
+.triangle {
+    border-right: 8px solid; 
+    border-bottom: 8px solid;
+    border-color:#000;
+    height: 20px;
+    width: 20px;
+    transform: rotate(-45deg);
+    margin-top: 250px;
+}
+
+.triangle:hover{
+	border-color:#FBB040;
+}
+
+.triangle2 {
+    border-right: 8px solid; 
+    border-bottom: 8px solid;
+    border-color:#000;
+    height: 20px;
+    width: 20px;
+    transform: rotate(135deg);
+    margin-top:250px;
+}
+
+.triangle2:hover{
+	border-color:#FBB040;
+}
+
+.triangle3 {
+    border-right: 8px solid; 
+    border-bottom: 8px solid;
+    border-color:#000;
+    height: 20px;
+    width: 20px;
+    transform: rotate(-45deg);
+    margin-left:50px;
+    margin-top: -10px;
+}
+
+.triangle3:hover{
+	border-color:#FBB040;
+}
+
+.triangle4 {
+    border-right: 8px solid; 
+    border-bottom: 8px solid;
+    border-color:#000;
+    height: 20px;
+    width: 20px;
+    transform: rotate(135deg);
+    margin-top: 250px;
+}
+
+.triangle4:hover{
+	border-color:#FBB040;
+}
